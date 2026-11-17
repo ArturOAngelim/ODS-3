@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding: 5px 30px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+.AA{
+    display: flex;
+}
+.opt{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 40px;
+}
+.opt a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+.menu_botao{
+    display: flex;
+    align-items: center;
+    
+}
+.menu_botao button{
+    padding: 6px 12px;
+    border-radius: 10px;        
+    color:black;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+.centro{
+    color: white;
+    background-image: url(img/ods3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%  ;
+    padding-top:1% ;
+    padding-left: 5%;
+}
+.centro h2{
+    font-size: 2rem;
+}
+.centro h1{
+    font-size: 4.5rem;
+}
+.centro p{
+    font-size: 1.4rem;
+}
+.btn-a{
+    padding: 20px 0px;
+}
+.btn-a button{
+    padding: 10px 40px;
+    text-align: center;
+    border-radius:20px ;
+    border:1px solid white;
+    color: white;
+    font-size: 18px;
+    background: transparent;
+}
+.central{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.oqueE{
+    padding: 2%;
+}
+.me{
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.d{
+    display: flex;
+    padding-left:10px;
+}
+.d h1{
+font-size: 1.5rem;
+}
+.meta{
+    display: flex;
+    gap: 10px;
+    padding-top:5% ;
+}
+.metas{
+    padding: 1.9%;
+}
+.mortalidade{
+    background: lightgreen;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius:10px ;
+}
+.iniciativa{
+    padding: 1.8%;
+}
+.AAA{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.btn_central{
+    padding-top:25px ;
+}
+.btn_central button{
+    padding: 10px 50px;
+    border-radius:20px ;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.OD{
+    color: green;
+    border-left: 5px solid green;
+    padding-left:20px ;
+}
